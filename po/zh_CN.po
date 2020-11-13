@@ -101,7 +101,7 @@ msgstr "双击以重置到 `%s'"
 #: ../build/src/preferences_gen.h:4009 ../build/src/preferences_gen.h:4029
 msgctxt "preferences"
 msgid "FALSE"
-msgstr ""
+msgstr "否"
 
 #: ../build/src/preferences_gen.h:2128
 msgid ""
@@ -219,6 +219,7 @@ msgid ""
 "if the thumbnail size is greater than this value, it will be processed using "
 "the full quality rendering path (better but slower)."
 msgstr ""
+"如果缩略图尺寸大于这个值，将使用全质量渲染路径进行处理（更好但更慢）"
 
 #: ../build/src/preferences_gen.h:2382
 msgid "enable extended thumb overlay"
@@ -445,31 +446,33 @@ msgstr "此选项可以定义shift+单击在暗房模式下的行为"
 
 #: ../build/src/preferences_gen.h:2788
 msgid "expand the module when it is activated, and collapse it when disabled"
-msgstr ""
+msgstr "当它激活/禁用时展开/收缩模块"
 
 #: ../build/src/preferences_gen.h:2800
 msgid ""
 "this option allows to expand or collapse automatically the module when it is "
 "enabled or disabled."
 msgstr ""
+"当它启用或禁用时，此选项允许模块自动展开或收缩"
 
 #: ../build/src/preferences_gen.h:2808
 msgid "scroll to darkroom modules when expanded/collapsed"
-msgstr ""
+msgstr "当展开/收缩时滚动导暗房模式"
 
 #: ../build/src/preferences_gen.h:2828
 msgid "border around image in darkroom mode"
-msgstr ""
+msgstr "暗房模式下图片带边框"
 
 #: ../build/src/preferences_gen.h:2847
 msgid ""
 "process the image in darkroom mode with a small border. set to 0 if you "
 "don't want any border."
 msgstr ""
+"在暗房模式下用小边框处理图片，不需要边框设置为0"
 
 #: ../build/src/preferences_gen.h:2855
 msgid "map / geolocalisation"
-msgstr ""
+msgstr "地图/地理位置"
 
 #: ../build/src/preferences_gen.h:2864
 msgid "only draw images on map that are currently collected and filtered"
@@ -481,6 +484,8 @@ msgid ""
 "map, i.e. limit the images drawn to the current filmstrip. this limits the "
 "number of images drawn and thus reduces the time needed to draw the images."
 msgstr ""
+"使用当前的过滤设置来选择地理标记图片绘制到地图上，如限制图片绘制到当前片段。"
+"这样可以限制绘制图像的数量，从而减少绘制图像的时间。"
 
 #: ../build/src/preferences_gen.h:2884
 msgid "maximum number of images drawn on map"
@@ -527,13 +532,14 @@ msgstr "在磁盘中删除任何图像或丢弃历史之前询问用户。"
 
 #: ../build/src/preferences_gen.h:2980
 msgid "send files to trash when erasing images"
-msgstr ""
+msgstr "删除图片时发送到回收站"
 
 #: ../build/src/preferences_gen.h:2992
 msgid ""
 "send files to trash instead of permanently deleting files on system that "
 "supports it"
 msgstr ""
+"当系统支持时可以发送图片到回收站来代替永久删除文件"
 
 #: ../build/src/preferences_gen.h:3000
 msgid "ask before moving images from film roll folder"
@@ -583,11 +589,11 @@ msgstr "(需要重启生效)"
 
 #: ../build/src/preferences_gen.h:3134
 msgid "waiting time between each picture in slideshow"
-msgstr ""
+msgstr "每张幻灯片的等待时间"
 
 #: ../build/src/preferences_gen.h:3160
 msgid "do not show april 1st game"
-msgstr ""
+msgstr "不显示愚人节游戏"
 
 #: ../build/src/preferences_gen.h:3179
 msgid "number of folder levels to show in lists"
@@ -613,11 +619,11 @@ msgstr "启用时间线"
 
 #: ../build/src/preferences_gen.h:3238
 msgid "enable the timeline in lighttable mode."
-msgstr ""
+msgstr "在光台模式下启用时间线"
 
 #: ../build/src/preferences_gen.h:3246
 msgid "overlay txt sidecar over zoomed images"
-msgstr ""
+msgstr "叠加附属文本在缩放的图片上"
 
 #: ../build/src/preferences_gen.h:3258
 msgid ""
@@ -625,20 +631,24 @@ msgid ""
 "zoomed images on the lighttable. the txt file either has to be there at "
 "import time or the crawler has to be enabled"
 msgstr ""
+"当图像旁边有一个txt文件时，它可以叠加显示在光台上的缩放图像上，"
+"txt文件必须在导入时存在，或者必须启用爬虫。"
 
 #: ../build/src/preferences_gen.h:3266
 msgid "mouse wheel scrolls modules side panel by default"
-msgstr ""
+msgstr "鼠标滚轮默认滚动侧面板"
 
 #: ../build/src/preferences_gen.h:3278
 msgid ""
 "when enabled, use mouse wheel to scroll modules side panel.  use ctrl+alt to "
 "use mouse wheel for data entry.  when disabled, this behavior is reversed"
 msgstr ""
+"当启用时，使用鼠标滚轮滚动模块侧板，使用ctrl+alt时，"
+"鼠标滚轮滚动数据条目，当禁用时，该行为相反"
 
 #: ../build/src/preferences_gen.h:3286
 msgid "show scrollbars for center view"
-msgstr ""
+msgstr "为中心视图显示滚动条"
 
 #: ../build/src/preferences_gen.h:3297
 msgctxt "preferences"
@@ -14927,15 +14937,15 @@ msgstr "右键双击"
 
 #: ../src/views/view.c:2161
 msgid "Drag and drop"
-msgstr ""
+msgstr "拖放"
 
 #: ../src/views/view.c:2164
 msgid "Left click+Drag"
-msgstr ""
+msgstr "单击+拖"
 
 #: ../src/views/view.c:2167
 msgid "Right click+Drag"
-msgstr ""
+msgstr "右击+拖"
 
 #: ../src/views/view.c:2191
 msgid "darktable - accels window"
@@ -15514,10 +15524,10 @@ msgstr "行为"
 #~ msgstr "移除默认"
 
 #~ msgid "float hdr"
-#~ msgstr "float HDR"
+#~ msgstr "浮动HDR"
 
 #~ msgid "albums"
-#~ msgstr "分辨率"
+#~ msgstr "专辑"
 
 #~ msgid "public album"
 #~ msgstr "公共相册"
